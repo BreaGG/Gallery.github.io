@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 head {
     background-color: black !important;
 }
@@ -6,8 +8,31 @@ body {
     font-family: sans-serif;
     background-color: black;
     color: white;
-    margin: 0;
-    padding: 0;
+    margin-top: -20%;
+}
+
+.back {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 5%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 2;
+}
+
+.next {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 90%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 3;
 }
 
 .marca { 
@@ -72,6 +97,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+a {
+    text-decoration: none;
+    color: black ;
+}
 
 .footertextizq {
 

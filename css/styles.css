@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+    font-family: Arges;
+    src: url(../misc/AT\ Arges\ Black\ Condensed.otf);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #ea612a;
+    transition: 0.5;
+}
+
+.contenedor-intro-text {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 180px;
+    letter-spacing: 2px;
+}
+
+.intro-text {
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    margin-bottom: -1.5rem;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.intro-text-2 {
+    margin-left: 3.5rem;
+    margin-bottom: -1.5rem;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.intro-text-3 {
+    margin-left: 17.5rem;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.about {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-decoration-line: underline;
+    color: black;
+    float: left;
+    margin-left: 33rem;
+    margin-top: 4rem;
+}
+
+.contenedor-exp {
+    overflow-y: auto; 
+    width: 600px;
+    height: 735px;
+    float: right;
+    margin-right: 17%;
+    margin-left: 5%;
+    margin-top: -5%
+
+}
+
+.navbar {
+    list-style: none;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.navbar-element {
+    font-size: 40px;
+    font-weight: 900;
+}
+.navbar-a {
+    font-family: Arges;
+    color: black;
+    text-decoration: none;
+    font-size: 128px;
+}
+
+.contenedor-about {
+    float: left;
+    margin-top: 8rem;
+    margin-left: 15rem;
+    width: 370px;
+    height: 85px;
+}
+
+p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.enlacesInside {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 200px;
+    height: 36px;
+    margin-left: -29%;
+    margin-top: 25%;
+
+}
+
+.enlacesContacto {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+
+
+
+.preload-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ea612a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 0.5s ease-in 1.8s forwards;
+}
+
+.load-h1 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 6.4px;
+    position: absolute;
+    margin-bottom: 10rem;
+}
+
+.load-h1 span {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    animation: fadeOut 0.5s ease-in 0.8s forwards;
+    /* Aplica la animación de fade out durante 0.5 segundos después de una espera de 0.8 segundos */
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Estilos para el contenido principal de tu sitio web */
+.content {
+    /* Estilos para el contenido principal de tu sitio web */
+    display: none;
+    /* Ocultar el contenido hasta que la pantalla de carga desaparezca */
+}
+
+.mobile-h1 {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: #ea612a;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .preload-screen {
+        display: none;
+    }
+
+    .container-stuff {
+        display: none;
+    }
+
+    .mobile-h1 {
+        display: flex;
+        text-align: center;
+        margin-top: 50%;
+        font-weight: 500;
+    }
+}

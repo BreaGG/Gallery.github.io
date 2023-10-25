@@ -191,9 +191,6 @@ p {
         background-color: #ea612a;
     }
 
-    .name {
-        display: none;
-    }
 
     .navbar {
         display: none;
@@ -203,14 +200,16 @@ p {
         display: none;
     }
 
-    .container-stuff {
-        display: none;
-    }
-
     .mobile-h1 {
         display: flex;
         text-align: center;
         margin-top: 50%;
         font-weight: 500;
     }
+
+    .contenedor-exp {display: none;}
+    .about {display: none;}
+    .contenedor-intro-text {display: none;}
+    .enlacesInside {display: none;}
+    .contenedor-about {display: none;}
 }

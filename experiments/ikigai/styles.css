@@ -1,0 +1,57 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    justify-content: space-around;
+}
+
+.back {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 5%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 2;
+}
+
+.next {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 80%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 3;
+}
+
+.izq {
+    
+    text-align: end;
+}
+
+img {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.dch {
+    text-align: left;
+    margin-right: 30%;
+}
+
+.music {
+        position: absolute;
+        z-index: 2;
+        margin-top: 35%;
+}

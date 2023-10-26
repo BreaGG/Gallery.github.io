@@ -145,11 +145,12 @@ p {
     
 }
 
-/* Estilos para el contenido principal de tu sitio web */
+.enlacesInside :hover {
+    text-decoration: underline;
+}
+
 .content {
-    /* Estilos para el contenido principal de tu sitio web */
     display: none;
-    /* Ocultar el contenido hasta que la pantalla de carga desaparezca */
 }
 
 .mobile-h1 {

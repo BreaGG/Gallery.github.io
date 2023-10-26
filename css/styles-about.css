@@ -7,6 +7,7 @@
 }
 
 body {
+    scale: 0.90;
     margin-top: 3%;
     font-family: "Inter", sans-serif;
     background-color: #ea612a;

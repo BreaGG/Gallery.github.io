@@ -12,12 +12,14 @@
 }
 
 body {
+    scale: 0.95;
     font-family: "Inter", sans-serif;
     background-color: #ea612a;
     transition: 0.5;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: -3rem;
 }
 
 .izq {

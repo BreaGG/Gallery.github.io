@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    background: #1a1a1a;
+    overflow: hidden;
+}
+
+.back {
+    color: white ;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 2;
+}
+
+.next {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 85%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 3;
+}
+
+svg {
+    height: 100vh;  
+    width: 100vw;
+}
+path {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 0.5px;
+    vector-effect: non-scaling-stroke;
+}

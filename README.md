@@ -1,9 +1,9 @@
-# A GALLERY OF WEB GRAPHIC EXPERIMENTS BY ALEJANDRO BREA
+# A Gallery Of Web Graphic Experiments By Alejandro Brea
 
-I´M A SPANISH WEB DEVELOPER WHO LOVES CREATING THINGS, THIS IS A SIDE PROJECT
+I´m a spanish web developer who loves creating things, this is my side project
 
-IN THIS PROJECT I WANT TO SHARE SOME DESING EXPRIMENTS USING WEB TECHNOLOGIES
+in this project i want to share some desing experiments using web technologies
 
-THE MAIN GOAL OF THE PROJECT IS TO DEVELOP MY CODING SKILLS AND SENSE OF ART
+The main goal of the project is to develop my coding skills and sense of art
 
-I´M A TRULY BELIEVER THAT ART IS IN EVERYTHING WE CREATE
+I´m a true believer that art is in everything we create

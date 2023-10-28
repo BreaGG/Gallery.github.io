@@ -1,0 +1,200 @@
+body{
+    background-image: url(misc/back.png);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 3.5rem;
+    margin-left: 5%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 2;
+}
+
+.next {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 3.5rem;
+    margin-left: 90%;
+    font-family: inter;
+    font-size: 30px;
+    font-weight:400;
+    z-index: 3;
+}
+
+.scroll-top {
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.titulo {
+    left: 27rem;
+    top: 2rem;
+    position: absolute;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.div1 {
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: purple;
+    padding-right: 50px;
+    top: 6rem;
+    left: 5rem;
+}
+
+.div1 h2 {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.div1 p {
+    text-decoration: underline;
+    margin-top: -5%;
+    color: yellow;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: red;
+    padding-right: 50px;
+    top: 16rem;
+    left: 5rem;
+}
+
+.div2 h2 {
+    
+    color: black;
+}
+
+.div2 p {
+    margin-top: -5%;
+    color: white;
+}
+
+.paloma {
+    margin-left: 40%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.canary {
+    position: absolute;
+    position: fixed;
+    left: 0;
+    bottom: 4rem;
+}
+
+.divC {
+    left: 10rem;
+    top: 22rem;
+    width: 5%;
+    height: 20%;
+    padding: 1rem;
+    background-color: yellowgreen;
+    position: absolute;
+}
+
+.art-canary {
+    background-color: plum;
+    color: aquamarine;
+    font-size: 50px;
+    width: 14%;
+    position: fixed;
+    right: 0;
+    
+}
+
+.call {
+    background-color: yellow;
+    color: plum;
+    text-decoration: underline;
+    width: 33%;
+    float: right;
+    top: 20rem;
+    right: 5rem;
+}
+
+.div3 {
+    background-color: aquamarine;
+    color: plum;
+    width: 12%;
+    right: 23rem;
+    top: 15rem;
+}
+
+.scroll-bot {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+
+/* Estilos para el contenedor externo */
+.draggable {
+    position: relative;
+    cursor: move;
+}
+
+.div-ecce {
+    text-decoration: underline;
+    position: absolute;
+    background-color: greenyellow;
+    color: blueviolet;
+    width: 300px;
+    height: 230px;
+    left: 30rem;
+    bottom: 15rem;
+}
+
+.div-ext {
+    position: absolute;
+    background-color: pink;
+    color: blueviolet;
+    width: 300px;
+    bottom: 2rem;
+    left: 35rem;
+}
+
+.punky {
+    position: absolute;
+    width: 15%;
+    bottom: 10rem;
+    left: 60rem;
+}
+
+.div-kfc {
+    position: absolute;
+    background-color: aquamarine;
+    color: yellow;
+    width: 500px;
+    height: 150px;
+    bottom: 5rem;
+    right: 4rem;
+    z-index: -1;
+}
+
+.pajaros {
+    position: absolute;
+    left: 40rem;
+    top: 12rem;
+    z-index: 3;
+}

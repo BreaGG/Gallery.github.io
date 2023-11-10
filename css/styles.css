@@ -82,33 +82,34 @@ body {
 }
 
 .contenedor-exp {
-    overflow-y: auto; 
+    overflow-y: auto;
     flex-wrap: wrap;
-    margin-right: 20rem;
+    margin-right: 20vw;
+    margin-left: 5vw;
     margin-top: 5rem;
-    height: 800px;
-
+    max-height: 50rem;
 }
 
 .navbar {
     list-style: none;
-    display: flex;  
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start; 
+    align-items: stretch;
     overflow-y: auto;
-    overflow: hidden;
 }
 
 .navbar-element {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 900;
+    margin-bottom: 1rem;
 }
+
 .navbar-a {
     font-family: Arges;
     color: black;
     text-decoration: none;
-    font-size: 128px;
+    font-size: 8rem; /* Ajusta el tamaño de fuente según tus necesidades */
 }
 
 .contenedor-about {

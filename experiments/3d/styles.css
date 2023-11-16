@@ -1,6 +1,11 @@
 body {
     overflow: hidden;
     margin: auto;
+    
+}
+
+main {
+    scale: 1.15;
 }
 
 .back {

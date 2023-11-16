@@ -92,8 +92,7 @@ body, ul {
 .contenedor-exp {
     overflow-y: auto;
     flex-wrap: wrap;
-    margin-right: 20vw;
-    margin-left: 5vw;
+    margin-right: 24rem;
     margin-top: 5rem;
     max-height: 50rem;
 }
@@ -141,8 +140,8 @@ p {
     flex-direction: column;
     width: 200px;
     height: 36px;
-    margin-left: 5%;
-    margin-bottom: 1%;
+    margin-left: 3.5rem;
+    margin-bottom: 6%;
 
 }
 

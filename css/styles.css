@@ -35,7 +35,7 @@ body, ul {
 .dch {
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .contenedor-intro-text {
@@ -100,8 +100,8 @@ body, ul {
     flex-direction: column;
     justify-content: flex-start; 
     align-items: stretch;
-    max-height: 100vh; /* o el valor que desees */
-    overflow: hidden;
+    max-height: 100vh;
+    overflow-x: hidden;
 }
 
 .navbar-element {

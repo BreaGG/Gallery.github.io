@@ -92,9 +92,10 @@ body, ul {
 .contenedor-exp {
     overflow-y: auto;
     flex-wrap: wrap;
-    margin-right: 24rem;
     margin-top: 5rem;
     max-height: 50rem;
+    margin-left: 5rem;
+    width: 100vw;
 }
 
 .navbar {

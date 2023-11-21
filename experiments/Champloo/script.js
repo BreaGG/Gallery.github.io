@@ -1,4 +1,3 @@
-// Updated Spanish text
 const texts = `
 
 
@@ -140,7 +139,7 @@ class Terminal {
         this.col = 0;
         this.row = 0;
 
-        this.size = this.sizes.width / this.maxLength;
+        this.size = this.sizes.width / this.maxLength * 1.3;
 
         this.curHeight = Math.max(this.size * (this.textsArr.length + 1), this.sizes.height);
 
@@ -160,6 +159,7 @@ class Terminal {
     draw(t) {
         this.ctx.textBaseline = 'top';
         this.ctx.font = this.size + 'px sans-serif';
+        this.ctx.fillStyle = 'white';
 
         this.ctx.clearRect(0, 0, this.sizes.width, this.curHeight);
 

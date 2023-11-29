@@ -5,6 +5,10 @@ body {
     margin: auto;
     overflow: hidden;
     background: #1E1E1E;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 main {

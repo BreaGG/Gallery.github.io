@@ -1,0 +1,76 @@
+:root {
+    --c0: #d93421;
+    --c1: #e7e3e1;
+    --c2: #0e0403;
+}
+
+body {
+    margin: auto;
+}
+
+.world {
+    height: 100vh;
+    background: var(--c0);
+}
+
+.frame {
+    position: absolute;
+    height: 80vh;
+    aspect-ratio: var(--ratio, .75);
+    background: var(--c1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.stripe {
+    background: var(--c2);
+    flex: 1 1 auto;
+    position: relative;
+    z-index: var(--z, 0);
+    margin-left: calc(var(--il) * 100%);
+    margin-right: calc(var(--ir) * 100%);
+
+    animation: grow 3s forwards cubic-bezier(.3, .7, 0, 1);
+    animation-delay: calc(1s - var(--ri) * .5s);
+    transform-origin: calc(var(--d) * 100%) 0;
+    transform: scaleX(0);
+}
+
+@keyframes grow {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.shape {
+    z-index: 1;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 55%;
+    aspect-ratio: 1;
+    background: var(--c0);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+/* .shape--top {
+    z-index: 3;
+    filter: blur(20px);
+    opacity: 0.85;
+    backdrop-filter: blur(5px);
+    mix-blend-mode: plus-lighter;
+}
+
+.shape--bottom {
+    z-index: -1;
+    filter: blur(25px);
+    transform: translate(-50%, -50%) scale(1.22);
+} */

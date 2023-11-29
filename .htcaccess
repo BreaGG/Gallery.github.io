@@ -1,0 +1,3 @@
+#Making a URL Mask.
+RewriteEngine On
+RewriteRUle ^example/?$ /example2/mask

@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
-    --c0: #d93421;
-    --c1: #e7e3e1;
-    --c2: #0e0403;
+    --c0: #FF503F;
+    --c1: #E5E3E1;
+    --c2: #1E1E1E;
 }
 
 body {
@@ -61,16 +63,26 @@ body {
     z-index: 3;
 }
 
-/* .shape--top {
-    z-index: 3;
-    filter: blur(20px);
-    opacity: 0.85;
-    backdrop-filter: blur(5px);
-    mix-blend-mode: plus-lighter;
+.navbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 9999;
 }
 
-.shape--bottom {
-    z-index: -1;
-    filter: blur(25px);
-    transform: translate(-50%, -50%) scale(1.22);
-} */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:500;
+    font-family: "Inter", sans-serif;
+}

@@ -12,6 +12,7 @@ body {
     font-family: inconsolata;
     background: #000;
     color: #fff;
+    overflow: hidden;
 }
 
 div {

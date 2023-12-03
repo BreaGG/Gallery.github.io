@@ -96,19 +96,16 @@ body, ul {
 .contenedor-exp {
     overflow-y: auto;
     flex-wrap: wrap;
-    margin-top: 5rem;
-    max-height: 50rem;
-    margin-left: 5rem;
     width: 100vw;
 }
 
 .navbar {
+    margin-left: 7rem;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
     align-items: stretch;
-    max-height: 100vh;
     overflow-x: hidden;
 }
 

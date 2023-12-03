@@ -108,7 +108,7 @@ body, ul {
     flex-direction: column;
     justify-content: flex-start; 
     align-items: stretch;
-    max-height: 90vh;
+    max-height: 100vh;
     overflow-x: hidden;
 }
 

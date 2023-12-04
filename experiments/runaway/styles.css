@@ -95,7 +95,11 @@ svg {
     height: 200px;
 }
 
-@keyframes rotate {
+.rotada {
+    transform: rotateY(180deg);
+}
+
+@keyframes baile {
     from {
         transform: rotateY(0deg);
     }
@@ -104,8 +108,21 @@ svg {
     }
 }
 
+@keyframes baileRotada {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(540deg);
+    }
+}
+
+.baileRotada {
+    animation: baileRotada 4s linear infinite;
+}
+
 .baile {
-    animation: rotate 4s linear infinite;
+    animation: baile 4s linear infinite;
 }
 
 button {

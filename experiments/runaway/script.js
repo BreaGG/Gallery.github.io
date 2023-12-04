@@ -6,8 +6,18 @@ document.getElementById('playButton').addEventListener('click', function () {
     } else {
         audio.pause();
     }
-    var imagenes = document.querySelectorAll('svg');
-    imagenes.forEach(function (imagen) {
+    
+    var imagenes = document.getElementsByClassName('norotada');
+    var imagenesArray = Array.from(imagenes); // o var imagenesArray = Array.prototype.slice.call(imagenes);
+    
+    var imagenesRotadas = document.getElementsByClassName('rotada');
+    var imagenesRotadasArray = Array.from(imagenesRotadas);
+
+    imagenesArray.forEach(function (imagen) {
         imagen.classList.toggle('baile');
+    });
+
+    imagenesRotadasArray.forEach(function (imagenRotada) {
+        imagenRotada.classList.toggle('baileRotada');
     });
 });

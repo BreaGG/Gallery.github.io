@@ -40,6 +40,17 @@ main {
     font-family: "Inter", sans-serif;
 }
 
+.date {
+    color: black;
+    position: fixed;
+    top: -1.3rem;
+    left: 1rem;
+    font-size: 38px;
+    font-weight:300;
+    font-family: "Inter", sans-serif;
+    z-index: 9998;
+}
+
 .izq {
     
     text-align: end;
@@ -58,5 +69,5 @@ img {
 .music {
         position: absolute;
         z-index: 2;
-        margin-top: 35%;
+        margin-top: 30%;
 }

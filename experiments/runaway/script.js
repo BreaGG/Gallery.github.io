@@ -8,7 +8,7 @@ document.getElementById('playButton').addEventListener('click', function () {
     }
     
     var imagenes = document.getElementsByClassName('norotada');
-    var imagenesArray = Array.from(imagenes); // o var imagenesArray = Array.prototype.slice.call(imagenes);
+    var imagenesArray = Array.from(imagenes);
     
     var imagenesRotadas = document.getElementsByClassName('rotada');
     var imagenesRotadasArray = Array.from(imagenesRotadas);

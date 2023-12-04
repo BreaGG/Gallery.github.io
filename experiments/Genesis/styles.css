@@ -52,7 +52,7 @@ marquee {
     line-height: normal;
 }
 
-p {
+main p {
     color: #CACACA;
     font-family: Times New Roman;
     font-size: 36px;
@@ -63,4 +63,15 @@ p {
     position: absolute;
     width: 525px;
     z-index: 999;
+}
+
+.date {
+    color: white;
+    position: fixed;
+    top: -1.3rem;
+    left: 1rem;
+    font-size: 38px;
+    font-weight:300;
+    font-family: "Inter", sans-serif;
+    z-index: 9999;
 }

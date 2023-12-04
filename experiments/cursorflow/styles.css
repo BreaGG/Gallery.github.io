@@ -29,3 +29,14 @@ body, html {
     font-weight:500;
     font-family: "Inter", sans-serif;
 }
+
+.date {
+    color: black;
+    position: fixed;
+    top: -1.3rem;
+    left: 1rem;
+    font-size: 38px;
+    font-weight:300;
+    font-family: "Inter", sans-serif;
+    z-index: 9999;
+}

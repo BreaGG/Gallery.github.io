@@ -40,6 +40,18 @@ main {
     font-family: "Inter", sans-serif;
 }
 
+.date {
+    color: black;
+    background-color: yellow;
+    position: fixed;
+    top: -1.3rem;
+    left: 1rem;
+    font-size: 38px;
+    font-weight:300;
+    font-family: "Inter", sans-serif;
+    z-index: 9999;
+}
+
 .scroll-top {
     background-color: yellow;
     padding: 1rem;

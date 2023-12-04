@@ -78,11 +78,22 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: var(--c1);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
     font-weight:500;
     font-family: "Inter", sans-serif;
+}
+
+.date {
+    color: var(--c1);
+    position: fixed;
+    top: -1.3rem;
+    left: 1rem;
+    font-size: 38px;
+    font-weight:300;
+    font-family: "Inter", sans-serif;
+    z-index: 9999;
 }

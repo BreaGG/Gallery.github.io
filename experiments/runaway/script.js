@@ -6,6 +6,7 @@ document.getElementById('playButton').addEventListener('click', function () {
     }
     else (this.innerHTML = "PLAY");
 
+
     if (audio.paused) {
         audio.play();
     } else {

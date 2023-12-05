@@ -139,10 +139,8 @@ svg {
 
 button {
     margin-top: 3%;
-    display: inline-flex;
     padding: 10px 18px;
-    align-items: flex-start;
-    min-width: 115px;
+    width: 115px;
     gap: 10px;
     border: 3px solid var(--neutral-default, #FFB76D);
     background-color: #05855d00;

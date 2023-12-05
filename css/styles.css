@@ -120,6 +120,7 @@ body, ul {
     color: black;
     text-decoration: none;
     font-size: 10rem; 
+    letter-spacing: 2.56px;
 }
 
 .contenedor-about {
@@ -154,7 +155,6 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 .enlacesInside :hover {

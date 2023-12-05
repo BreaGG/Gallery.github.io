@@ -42,11 +42,11 @@ const canvas = document.getElementById('miCanvas');
         function drawLetter(x, y) {
             ctx.font = `bold ${fontSize}px BebasNeue`;
             ctx.fillStyle = 'black';
-            // ctx.strokeStyle = 'white';
-            // ctx.lineWidth = 0.001;
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = 1;
             const letter = randomLetter();
             ctx.fillText(letter, x, y);
-            // ctx.strokeText(letter, x, y);
+            ctx.strokeText(letter, x, y);
         }
 
         function handleMouseMove(event) {

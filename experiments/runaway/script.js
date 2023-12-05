@@ -1,6 +1,11 @@
 var audio = new Audio('Kanye-West-Runaway.mp3');
 
 document.getElementById('playButton').addEventListener('click', function () {
+    if (this.innerHTML == "PLAY") {
+        this.innerHTML = "PAUSE";
+    }
+    else (this.innerHTML = "PLAY");
+
     if (audio.paused) {
         audio.play();
     } else {

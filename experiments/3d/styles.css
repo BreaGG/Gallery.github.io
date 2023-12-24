@@ -40,7 +40,7 @@ main {
     top: -1.3rem;
     left: 1rem;
     font-size: 38px;
-    font-weight:300;
+    font-weight: lighter;
     font-family: "Inter", sans-serif;
     z-index: 9999;
 }

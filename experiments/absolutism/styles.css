@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: black;
+    color: #BBB;
+    font-family: Ubuntu;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    margin-top: 20%;
+    margin-left: -45%;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text {
+    margin-left: -45%;
+    margin-top: -5%;
+    width: 645px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.circle-div {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: #CDCDCD;
+    cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #BBB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:500;
+    font-family: "Inter", sans-serif;
+}
+
+.date {
+    color: #BBB;
+    position: fixed;
+    top: -1.3rem;
+    left: 1rem;
+    font-size: 38px;
+    font-weight: lighter;
+    font-family: "Inter", sans-serif;
+    z-index: 1;
+}
